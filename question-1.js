@@ -6,3 +6,11 @@ const myTodo = [
   { id: 4, todo: "Wash dishes" },
 ];
 // เริ่มเขียนโค้ดตรงนี้
+myTodo.push({id:5,todo:"Walk the dog"});
+myTodo[3]["todo"]="go to the gym";
+myTodo.pop();
+let idObject4 = myTodo[3].id;
+let mytodoObject4 =myTodo[3].todo;
+
+console.log(`To-do id: ${idObject4}, ${mytodoObject4}`);
+
